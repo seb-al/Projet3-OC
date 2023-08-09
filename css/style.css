@@ -157,6 +157,8 @@ nav li a:hover {
   align-self: center;
 }
 
+/****** FILTRES ***********/
+
 .filters {
   flex-wrap: wrap;
   font-weight: 700;
@@ -281,6 +283,25 @@ nav li a:hover {
   margin-bottom: 5px;
 }
 
+/****** FOOTER ***********/
+
+footer {
+  padding: 40px 50px 50px;
+  background-color: var(--main-bg-color);
+}
+
+footer div {
+  flex: 1;
+}
+
+footer li {
+  margin-bottom: 15px;
+}
+
+footer a:hover {
+  font-weight: 600;
+  color: var(--main-color);
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
