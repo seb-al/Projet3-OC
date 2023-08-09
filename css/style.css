@@ -93,7 +93,7 @@ nav li a:hover {
   border-top: 2px solid var(--main-color);
   padding-top: 30px;
 }
-/****** HERO ***********/
+/****** SEARCH ***********/
 .search {
   margin-bottom: 30px;
 }
@@ -131,10 +131,10 @@ nav li a:hover {
   width: 230px;
 }
 
-.searchinput:focus {
+/* .searchinput:active {
   border: none;
   outline: none;
-}
+} */
 
 .searchButton {
   width: 130px;
@@ -168,7 +168,6 @@ nav li a:hover {
   align-items: center;
   height: 46px;
   border: 2px solid #f2f2f2;
-  border-left: none;
   margin-left: 20px;
   padding-right: 20px;
   border-radius: 25px;
