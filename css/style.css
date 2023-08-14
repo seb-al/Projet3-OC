@@ -356,6 +356,42 @@ nav li a:hover {
   margin-bottom: 5px;
 }
 
+/******** ACTIVITES *********/
+
+.activitiesTab {
+  display: flex;
+  gap: 30px;
+  height: 450px;
+  margin-bottom: 30px;
+}
+.activitiesCard {
+  height: 450px;
+  width: 350px;
+}
+
+.activityFrame {
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 7px #c1c1c1;
+}
+
+.activityFrame img {
+  width: 100%;
+  object-fit: cover;
+  height: 90%;
+}
+
+.activityDescription {
+  align-self: center;
+  background-color: #fff;
+  padding-top: 2%;
+  padding-left: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
 /****** FOOTER ***********/
 
 footer {
