@@ -33,66 +33,188 @@
           </ul>
         </nav>
       </header>
-      <div class="search">
-        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-        <p>En plein centre ville ou en pleine nature</p>
-        <form class="searchBar flex">
-          <div class="containerMarker flex">
-            <i class="fas fa-map-marker-alt"></i>
-          </div>
-          <input
-            type="search"
-            class="searchInput"
-            placeholder="Marseille, France"
-          />
-          <button class="searchButton">
-            <span>Rechercher</span>
-            <i class="fas fa-search"></i>
-          </button>
-        </form>
-        <div class="filters flex">
-          <div class="textFilter">Filtres</div>
-          <div class="filterList flex">
-            <div class="filter flex">
-              <div class="iconFilter flex">
-                <i class="fas fa-money-bill-wave"></i>
-              </div>
-              <span>Économique</span>
-            </div>
-
-            <div class="filter flex">
-              <div class="iconFilter flex">
-                <i class="fas fa-child"></i>
-              </div>
-              <span>Familial</span>
-            </div>
-
-            <div class="filter flex">
-              <div class="iconFilter flex">
-                <i class="fas fa-heart"></i>
-              </div>
-              <span>Romantique</span>
-            </div>
-
-            <div class="filter flex">
-              <div class="iconFilter flex">
-                <i class="fas fa-dog"></i>
-              </div>
-              <span>Animaux autorisés</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="containerInfo flex">
-          <div class="iconInfo flex">
-            <i class="fas fa-info"></i>
-          </div>
-          Plus de 500 logements sont disponibles dans cette ville
-        </div>
-      </div>
       <main>
+        <div class="search">
+          <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+          <p>En plein centre ville ou en pleine nature</p>
+          <form class="searchBar flex">
+            <div class="containerMarker flex">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <input
+              type="search"
+              class="searchInput"
+              placeholder="Marseille, France"
+            />
+            <button class="searchButton">
+              <span>Rechercher</span>
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+          <div class="filters flex">
+            <div class="textFilter">Filtres</div>
+            <div class="filterList flex">
+              <div class="filter flex">
+                <div class="iconFilter flex">
+                  <i class="fas fa-money-bill-wave"></i>
+                </div>
+                <span>Économique</span>
+              </div>
+
+              <div class="filter flex">
+                <div class="iconFilter flex">
+                  <i class="fas fa-child"></i>
+                </div>
+                <span>Familial</span>
+              </div>
+
+              <div class="filter flex">
+                <div class="iconFilter flex">
+                  <i class="fas fa-heart"></i>
+                </div>
+                <span>Romantique</span>
+              </div>
+
+              <div class="filter flex">
+                <div class="iconFilter flex">
+                  <i class="fas fa-dog"></i>
+                </div>
+                <span>Animaux autorisés</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="containerInfo flex">
+            <div class="iconInfo flex">
+              <i class="fas fa-info"></i>
+            </div>
+            Plus de 500 logements sont disponibles dans cette ville
+          </div>
+        </div>
+
         <div class="hebergements-and-populaires">
-          <section class="hebergements"></section>
+          <section class="hotels">
+            <h2 id="hotelsAnchor">Hébergements à Marseille</h2>
+            <div class="hotelsTab">
+              <a href="#">
+                <article class="hotelFrame">
+                  <img
+                    src="images/hebergements/fred-kleber.jpg"
+                    alt="Photo d'une chambre avec deux lits simples"
+                  />
+                  <div class="hotelDescription flex">
+                    <h3 class="hotelName">Hôtel du port</h3>
+                    <p>Nuit à partir de 52<span class="euros">€</span></p>
+                    <div class="hotelRate">
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star greyStar"></i>
+                    </div>
+                  </div>
+                </article>
+              </a>
+              <a href="#">
+                <article class="hotelFrame">
+                  <img
+                    src="images/hebergements/febrian-zakaria.jpg"
+                    alt="Photo d'une chambre avec deux lits simples"
+                  />
+                  <div class="hotelDescription flex">
+                    <h3 class="hotelName">Hôtel chez Amina</h3>
+                    <p>Nuit à partir de 96<span class="euros">€</span></p>
+                    <div class="hotelRate">
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star greyStar"></i>
+                    </div>
+                  </div>
+                </article>
+              </a>
+
+              <a href="#">
+                <article class="hotelFrame">
+                  <img
+                    src="images/hebergements/reisetopia.jpg"
+                    alt="Photo d'une chambre avec un lit simple"
+                  />
+                  <div class="hotelDescription flex">
+                    <h3 class="hotelName">Hôtel Les mouettes</h3>
+                    <p>Nuit à partir de 76<span class="euros">€</span></p>
+                    <div class="hotelRate">
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star greyStar"></i>
+                    </div>
+                  </div>
+                </article>
+              </a>
+
+              <a href="#">
+                <article class="hotelFrame">
+                  <img
+                    src="images/hebergements/annie-spratt.jpg"
+                    alt="Photo d'une chambre avec un lit double sur le thème de la mer"
+                  />
+                  <div class="hotelDescription flex">
+                    <h3 class="hotelName">Hôtel de la mer</h3>
+                    <p>Nuit à partir de 46<span class="euros">€</span></p>
+                    <div class="hotelRate">
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star greyStar"></i>
+                    </div>
+                  </div>
+                </article>
+              </a>
+              <a href="#">
+                <article class="hotelFrame">
+                  <img
+                    src="/images/hebergements/marcus-loke.jpg"
+                    alt="Photo d'une chambre avec un lit superposé et vu sur la ville"
+                  />
+                  <div class="hotelDescription flex">
+                    <h3 class="hotelName">Auberge la Cannebière</h3>
+                    <p>Nuit à partir de <span class="euros">25€</span></p>
+                    <div class="hotelRate">
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star greyStar"></i>
+                    </div>
+                  </div>
+                </article>
+              </a>
+              <a href="#">
+                <article class="hotelFrame">
+                  <img
+                    src="images/hebergements/nicate-lee.jpg"
+                    alt="Photo d'une chambre d'auberge avec deux lits superposés"
+                  />
+                  <div class="hotelDescription flex">
+                    <h3 class="hotelName">Auberge Le Panier</h3>
+                    <p>Nuit à partir de <span class="euros">23€</span></p>
+                    <div class="hotelRate">
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star blueStar"></i>
+                      <i class="fas fa-star greyStar"></i>
+                    </div>
+                  </div>
+                </article>
+              </a>
+            </div>
+            <a class="showMore" href="">Afficher plus</a>
+          </section>
           <section class="populaires">
             <div class="populaires-title">
               <h2 class="section-title">Les plus populaires</h2>
