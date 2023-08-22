@@ -447,9 +447,67 @@ footer a:hover {
   .populaires-cards .card-subtitle {
     font-size: 13px;
   }
+  .filters {
+    flex-direction: column;
+  }
+  .textFilter {
+    align-self: auto;
+    margin-bottom: 15px;
+  }
+
+  .filter {
+    margin: 0 1rem 1rem 0;
+  }
+  .hotels {
+    order: 2;
+  }
+
+  .containerHotels {
+    flex-direction: column;
+  }
+
+  .activityFrame {
+    height: 280px;
+  }
+  .activityDescription {
+    font-size: 1.1rem;
+  }
+  footer div {
+    padding: 10px;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* ... */
+  .populaires {
+    border-radius: 0;
+    padding: 40px 20px 30px;
+    margin-bottom: 40px;
+  }
+
+  .popularFrame {
+    height: 145px;
+    margin-bottom: 10px;
+  }
+
+  .popularIcon i {
+    font-size: 1.4rem;
+  }
+
+  .hotelName {
+    font-size: 1rem !important;
+  }
+
+  .popularDescription p {
+    font-size: 0.9rem;
+  }
+
+  .popularDescription {
+    padding: 15px 10px 10px 20px;
+  }
+
+  .fa-star {
+    font-size: 0.8rem !important;
+    letter-spacing: 1px;
+  }
 }
